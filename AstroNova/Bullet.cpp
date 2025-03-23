@@ -8,13 +8,12 @@ void Bullet::update() {
     y -= SPEED;
 }
 
-void Bullet::render(SDL_Renderer* renderer) {
-    SDL_Rect rect = { x, y, WIDTH, HEIGHT };
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-    SDL_RenderFillRect(renderer, &rect);
+void Bullet::render(SDL_Renderer* renderer, SDL_Texture* texture) {
+    SDL_Rect bulletRect = { x, y, BULLET_WIDTH, BULLET_HEIGHT };
+    SDL_RenderCopy(renderer, texture, NULL, &bulletRect);
 }
 
-bool Bullet::isOutOfBounds() const {
-    return y < 0;
+bool Bullet::isOutOfBounds() {
+    return y + BULLET_HEIGHT < 0;
 }
 

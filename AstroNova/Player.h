@@ -10,18 +10,17 @@ class Player {
 public:
     static const int WIDTH = 70;
     static const int HEIGHT = 70;
-    static const int SPEED = 1;
+    static const int SPEED = 2;
     Player(int x, int y);
     void handleInput();
     void update();
     void render(SDL_Renderer* renderer, SDL_Texture* texture);
-    bool isFiring() const;
-    int getX() const;
-    int getY() const;
+    bool isFiring();
+    int getX();
+    int getY();
 private:
     int x, y;
     bool firing;
-    double angle;
 };
 
 #endif

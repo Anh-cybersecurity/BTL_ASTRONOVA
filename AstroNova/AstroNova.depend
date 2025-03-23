@@ -1,35 +1,43 @@
 # depslib dependency file v1.0
-1742031249 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\bullet.cpp
+1742654129 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\bullet.cpp
 	"Bullet.h"
 	<SDL.h>
 
-1742032067 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\bullet.h
+1742717620 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\bullet.h
 	<SDL.h>
 
 1742030866 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\main.cpp
 	"Game.h"
 
-1742031050 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\game.h
+1742717175 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\game.h
 	<SDL.h>
 	<SDL_image.h>
 	<vector>
 	"Player.h"
 	"Bullet.h"
+	"Enemy.h"
 
-1742032118 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\player.h
+1742717992 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\player.h
 	<iostream>
 	<SDL.h>
 	<vector>
 	"Bullet.h"
 
-1742031725 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\player.cpp
+1742700522 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\player.cpp
 	"Player.h"
 	<SDL.h>
 	<cmath>
 
-1742031372 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\game.cpp
+1742717893 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\game.cpp
 	"Game.h"
 	<iostream>
 	<algorithm>
 	<cmath>
+	<ctime>
+
+1742698883 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\enemy.cpp
+	"Enemy.h"
+
+1742717739 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\enemy.h
+	<SDL.h>
 

@@ -3,25 +3,21 @@
 #include <cmath>
 using namespace std;
 
-Player::Player(int x, int y) : x(x), y(y), firing(false), angle(0) {}
+Player::Player(int x, int y) : x(x), y(y), firing(false) {}
 
 void Player::handleInput() {
     const Uint8* keys = SDL_GetKeyboardState(NULL);
-    if (keys[SDL_SCANCODE_A]){
+    if (keys[SDL_SCANCODE_A]) {
         x -= SPEED;
-        cout << "A was pressed \n";
     }
     if (keys[SDL_SCANCODE_D]) {
         x += SPEED;
-        cout << "D was pressed \n";
     }
     if (keys[SDL_SCANCODE_W]) {
         y -= SPEED;
-        cout << "W was pressed \n";
     }
     if (keys[SDL_SCANCODE_S]) {
         y += SPEED;
-        cout << "S was pressed \n";
     }
     firing = keys[SDL_SCANCODE_SPACE];
 }
@@ -34,20 +30,18 @@ void Player::update() {
 }
 
 void Player::render(SDL_Renderer* renderer, SDL_Texture* texture) {
-    SDL_Rect rect = { x, y, WIDTH, HEIGHT };
-    SDL_Point center = { WIDTH / 2, HEIGHT / 2 };
-    SDL_RenderCopyEx(renderer, texture, NULL, &rect, angle, &center, SDL_FLIP_NONE);
+    SDL_Rect playerRect = { x, y, WIDTH, HEIGHT };
+    SDL_RenderCopy(renderer, texture, NULL, &playerRect);
 }
 
-bool Player::isFiring() const {
+bool Player::isFiring() {
     return firing;
 }
 
-int Player::getX() const {
+int Player::getX() {
     return x;
 }
 
-int Player::getY() const {
+int Player::getY() {
     return y;
 }
-
