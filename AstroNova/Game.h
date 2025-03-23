@@ -6,6 +6,7 @@
 #include <vector>
 #include "Player.h"
 #include "Bullet.h"
+#include "Enemy.h"
 
 class Game {
 public:
@@ -21,10 +22,15 @@ private:
     SDL_Window* window;
     SDL_Renderer* renderer;
     SDL_Texture* shipTexture;
+    SDL_Texture* backgroundTexture;
+    SDL_Texture* bulletTexture;
+    SDL_Texture* enemyTexture;
     bool isRunning;
     Player* player;
     std::vector<Bullet> bullets;
     int fireCooldown;
+    std::vector<Enemy> enemies;
+    int enemySpawnCooldown;
 };
 
 #endif
