@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1743687496 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\bullet.cpp
+	"Bullet.h"
+	<SDL.h>
+
+1743687472 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\bullet.h
+	<SDL.h>
+
+1742718158 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\main.cpp
+	"Game.h"
+
+1743748431 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\game.h
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+	"Player.h"
+	"Bullet.h"
+	"Enemy.h"
+
+1743748746 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\player.h
+	<iostream>
+	<SDL.h>
+	<vector>
+	"Bullet.h"
+
+1743748746 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\player.cpp
+	"Player.h"
+	<SDL.h>
+	<cmath>
+
+1743764522 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\game.cpp
+	"Game.h"
+	<iostream>
+	<algorithm>
+	<cmath>
+	<ctime>
+
+1742794928 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\enemy.cpp
+	"Enemy.h"
+
+1743737338 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\enemy.h
+	<SDL.h>
+
