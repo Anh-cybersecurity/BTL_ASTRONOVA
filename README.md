@@ -12,8 +12,13 @@
 ---
 ## 🎮 Game preview:
 
+Menu:
 ![Screenshot 2025-05-04 220302](https://github.com/user-attachments/assets/0496cdee-3222-4a90-af21-c83a55c49891)
+
+Gameplay:
 ![image](https://github.com/user-attachments/assets/62537813-7f3e-42f7-98cf-b625544c1361)
+
+GameOver Menu:
 ![image](https://github.com/user-attachments/assets/3aec0c10-7c75-40f8-a24e-c0212f7626ef)
 
 
