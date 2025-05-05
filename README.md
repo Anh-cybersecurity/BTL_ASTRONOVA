@@ -1,4 +1,4 @@
-# 🌌ASTRONOVA🚀 - Only top 1% reaches a score of 15000+
+# 🌌ASTRONOVA🚀
 
 **Họ và tên:** Vũ Tuấn Anh  
 **MSV:** 24022766  
