@@ -1,0 +1,98 @@
+# depslib dependency file v1.0
+1746539378 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\bullet.cpp
+	"Bullet.h"
+	<SDL.h>
+
+1746539360 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\bullet.h
+	<SDL.h>
+
+1746516427 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\main.cpp
+	"Game.h"
+	"Menu.h"
+	"GameOverMenu.h"
+
+1746516441 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\game.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<vector>
+	"Player.h"
+	"Bullet.h"
+	"Enemy.h"
+	"Boss.h"
+
+1746539312 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\player.h
+	<iostream>
+	<SDL.h>
+	<vector>
+	"Bullet.h"
+
+1746539322 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\player.cpp
+	"Player.h"
+	<SDL.h>
+	<cmath>
+
+1746517822 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\game.cpp
+	"Game.h"
+	<iostream>
+	<algorithm>
+	<cmath>
+	<ctime>
+	<fstream>
+
+1746539337 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\enemy.cpp
+	"Enemy.h"
+
+1746539330 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\enemy.h
+	<SDL.h>
+
+1746539390 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\menu.cpp
+	"Menu.h"
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<iostream>
+
+1746516468 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\menu.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<string>
+	<vector>
+	"Game.h"
+
+1745390965 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\gameover.cpp
+	"GameOver.h"
+	<SDL.h>
+	<SDL_ttf.h>
+
+1745390954 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\gameover.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+	<vector>
+
+1746539405 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\gameovermenu.cpp
+	"GameOverMenu.h"
+	<iostream>
+
+1746539399 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\gameovermenu.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<vector>
+	<string>
+
+1746539343 c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\boss.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<vector>
+	"Bullet.h"
+
+1746539348 source:c:\users\asus\onedrive - vnu.edu.vn\documents\codeblocks\sdl projects\project_btl_astronova\astronova\boss.cpp
+	"Boss.h"
+	<SDL.h>
+	<vector>
+	"Bullet.h"
+
