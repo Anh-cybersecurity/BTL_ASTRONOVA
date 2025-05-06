@@ -33,13 +33,13 @@ GameOver Menu:
 
 ## 🎯 Ngưỡng điểm đề xuất
 
-Em cho rằng mình xứng đáng với mức điểm là: **8.0**.
+Em cho rằng mình xứng đáng với mức điểm là: **8.5**.
 
 ---
 
 ## ✅ Lý do bảo vệ ngưỡng điểm
 
-Dựa trên barem đánh giá, em xin đưa ra các lý do sau cho mức điểm 8.0:
+Dựa trên barem đánh giá, em xin đưa ra các lý do sau cho mức điểm 8.5:
 
 ### 🔹 Hoàn thiện các yêu cầu chính:
 - Di chuyển để lựa chọn các tính năng bằng các phím mũi tên **← ↑ ↓ →**
@@ -53,6 +53,7 @@ Dựa trên barem đánh giá, em xin đưa ra các lý do sau cho mức điểm
 - Kẻ địch **cũng có thể bắn đạn** (chia sẻ lớp `Bullet`).
 - Nút **Retry** hoạt động đúng chức năng (reset số lượng địch và trạng thái game).
 - **Âm thanh** đã được thêm vào (bắn, nổ, v.v.).
+- Có thêm **boss** khi đạt đến một ngưỡng điểm nhất định.
 
 ### 🔹 File có sắp xếp:
 - Có tách file rõ ràng: menu, logic gameplay, các class (`Player`, `Enemy`, `Bullet`,…).
