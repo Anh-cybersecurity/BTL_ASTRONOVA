@@ -29,7 +29,7 @@ Game::Game()
 	highscore(0),
 	boss(nullptr),
 	bossAppeared(false),
-	bossThreshold(100) {
+	bossThreshold(1000) {
 }
 
 
