@@ -12,16 +12,16 @@
 ---
 ## 🎮 Game preview:
 
-Menu:
+**Menu:**
 ![Screenshot 2025-05-04 220302](https://github.com/user-attachments/assets/0496cdee-3222-4a90-af21-c83a55c49891)
 
-Gameplay:
+**Gameplay:**
 ![image](https://github.com/user-attachments/assets/62537813-7f3e-42f7-98cf-b625544c1361)
 
-GameOver Menu:
+**GameOver Menu:**
 ![image](https://github.com/user-attachments/assets/3aec0c10-7c75-40f8-a24e-c0212f7626ef)
 
-
+**Video demo gameplay:** https://youtu.be/x1e9Ynyqc0E
 ---
 ## 🎮 Hướng dẫn chơi game:
 
@@ -33,13 +33,13 @@ GameOver Menu:
 
 ## 🎯 Ngưỡng điểm đề xuất
 
-Em cho rằng mình xứng đáng với mức điểm là: **8.5**.
+Em cho rằng mình xứng đáng với mức điểm là: **9.0**.
 
 ---
 
 ## ✅ Lý do bảo vệ ngưỡng điểm
 
-Dựa trên barem đánh giá, em xin đưa ra các lý do sau cho mức điểm 8.5:
+Dựa trên barem đánh giá, em xin đưa ra các lý do sau cho mức điểm 9.0:
 
 ### 🔹 Hoàn thiện các yêu cầu chính:
 - Di chuyển để lựa chọn các tính năng bằng các phím mũi tên **← ↑ ↓ →**
